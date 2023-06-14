@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/moviesapp/static/css/main.eab12cba.css",
+    "main.js": "/moviesapp/static/js/main.4c649c59.js",
+    "static/js/787.28cb0dcd.chunk.js": "/moviesapp/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Bitter-VariableFont_wght.ttf": "/moviesapp/static/media/Bitter-VariableFont_wght.2079c94d0d6679106bfe.ttf",
+    "static/media/404.png": "/moviesapp/static/media/404.e18cab8733f17c3a578f.png",
+    "index.html": "/moviesapp/index.html",
+    "main.eab12cba.css.map": "/moviesapp/static/css/main.eab12cba.css.map",
+    "main.4c649c59.js.map": "/moviesapp/static/js/main.4c649c59.js.map",
+    "787.28cb0dcd.chunk.js.map": "/moviesapp/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eab12cba.css",
+    "static/js/main.4c649c59.js"
+  ]
+}
