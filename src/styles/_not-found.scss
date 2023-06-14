@@ -1,0 +1,15 @@
+.not-found {
+  @include flex-center-column();
+
+  span {
+    margin: 1em 0;
+  }
+
+  a {
+    color: $hover-color;
+  }
+
+  img {
+    width: 27em;
+  }
+}

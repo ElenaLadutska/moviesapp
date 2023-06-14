@@ -1,0 +1,59 @@
+@import 'variables';
+@import 'mixins';
+@import 'modal';
+@import 'movies';
+@import 'movie';
+@import 'buttons';
+@import 'header';
+@import 'loader';
+@import 'cinemas';
+@import 'cities';
+@import 'sign';
+@import 'notification';
+@import 'not-found';
+@import 'profile';
+
+body {
+  font-family: $font; 
+  letter-spacing: .3px;
+  background-color: rgba($color: $background-color, $alpha: .9);
+  color: $text-color;
+
+    a:hover {
+      color: $hover-color;
+    }
+}
+
+input{
+  background-color: transparent;
+  color: $text-color;
+  border: 2px solid $primary-color;
+  border-radius: 15px;
+  margin-bottom: 1.5vh;
+  outline: none;
+  font-size: 2vh;
+  padding: 0.6em;
+  transition: border 0.5s linear;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: $text-color;
+  -webkit-box-shadow: 0 0 0px 40rem $background-color inset;
+}
+
+input:hover,
+input:focus {
+  outline: none;
+  border: 2px solid $hover-color;
+}
+
+::placeholder {
+  color: $text-color;
+  opacity: 0.8;
+}
+
+#root {
+  position: relative
+}

@@ -1,0 +1,77 @@
+.wrong-passwords {
+  font-size: small;
+}
+
+.authorization-box {
+  @include flex-center();
+  width: 100%;
+  height: 85vh;
+
+  .authorization {
+    padding: 2.5em;
+    border-radius: 10px;
+    border: 2px solid $primary-color;
+  }
+
+  button {
+    color: $primary-color;
+  }
+  
+  button:hover {
+    color: $hover-color
+  }
+}
+.sign-in {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
+  z-index: 2;
+  background-color: rgba($color: $background-color, $alpha: .7);
+
+  .sign-in-content {
+    @include flex-center-column();
+    border-radius: 10px;
+    background-color: $text-color;
+    padding: 1em;
+
+    button {
+      color: $primary-color;
+    }
+    
+    button:hover {
+      color: $hover-color
+    }
+
+    .sign-in-header {
+      @include flex();
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 0 1em 0;
+      width: 100%;
+
+      span {
+        color: $primary-color;
+      }
+    }
+
+    .users-data {
+      @include flex-center-column();
+
+      ::placeholder,
+      input {
+        color: $primary-color;
+      }
+    }
+
+    .create-acc-btn {
+      @include flex-center();
+      color: rgba($color: $background-color, $alpha: .7);
+
+        p {
+          font-size: small;
+        }
+    }
+  }
+}
